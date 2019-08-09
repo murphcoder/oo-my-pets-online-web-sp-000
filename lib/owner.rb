@@ -50,7 +50,7 @@ class Owner
   end
   
   def list_pets
-    
+    "I have "
   
   def self.all
     @@all
