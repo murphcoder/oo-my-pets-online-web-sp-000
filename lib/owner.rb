@@ -26,6 +26,9 @@ class Owner
     Cat.all.each |cat| do
       if cat.name == cat_name
         cat.owner = self
+      end
+    end
+  end
   
   def self.all
     @@all
